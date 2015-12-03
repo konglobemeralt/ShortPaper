@@ -1,28 +1,5 @@
 \begin{thebibliography}{\protect\citename{Pellacini et~al\mbox{.} }2005}
 
-\bibitem[\protect\citename{Palvqvist }2013]{Palvqvist:2013:DPDS}
-{\sc Palvqvist, L.}
-\newblock 2012.
-\newblock {\em DEPTH PERCEPTION IN
-DRIVING SIMULATORS Observer-produced motion parallax, how it affects
-car drivers’ position and perceived presence}.
-\newblock Bachelor thesis, Umeå University.
-
-
-\bibitem[\protect\citename{Boyd }2000]{Boyd:2000:DPC}
-{\sc Boyd, D.}
-\newblock 2000.
-\newblock {\em Depth Cues in Virtual Reality and Real
-World: Understanding Individual Differences in Depth Perception by Studying
-Shape-from-shading and Motion Parallax}.
-\newblock Bachelor thesis, Brown University.
-
-\bibitem[\protect\citename{Boyd }2008]{Boyd:2000:DPCVR}
-{\sc Dr.Armbrüster C., Wolter M., Dr.Kuhlen T., Prof. Dr.Spijkers W., and Dr.Fimm B.}
-\newblock 2000.
-\newblock {\em Depth Perception in Virtual Reality: Distance Estimations in Peri- and Extrapersonal Space}.
-\newblock Bachelor thesis, Brown University.
-
 \bibitem[\protect\citename{Agarwal et~al\mbox{.} }]{ceres-solver}
 {\sc Agarwal, S., Mierle, K., and Others}.
 \newblock Ceres solver.
