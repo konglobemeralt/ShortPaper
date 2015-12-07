@@ -1,5 +1,28 @@
 \begin{thebibliography}{\protect\citename{Pellacini et~al\mbox{.} }2005}
 
+\bibitem[\protect\citename{Palvqvist }2013]{Palvqvist:2013:DPDS}
+{\sc Palvqvist, L.}
+\newblock 2012.
+\newblock {\em DEPTH PERCEPTION IN
+DRIVING SIMULATORS Observer-produced motion parallax, how it affects
+car drivers’ position and perceived presence}.
+\newblock Bachelor thesis, Umeå University.
+
+
+\bibitem[\protect\citename{Boyd }2000]{Boyd:2000:DPC}
+{\sc Boyd, D.}
+\newblock 2000.
+\newblock {\em Depth Cues in Virtual Reality and Real
+World: Understanding Individual Differences in Depth Perception by Studying
+Shape-from-shading and Motion Parallax}.
+\newblock Bachelor thesis, Brown University.
+
+\bibitem[\protect\citename{Boyd }2008]{Boyd:2000:DPCVR}
+{\sc Dr.Armbrüster C., Wolter M., Dr.Kuhlen T., Prof. Dr.Spijkers W., and Dr.Fimm B.}
+\newblock 2000.
+\newblock {\em Depth Perception in Virtual Reality: Distance Estimations in Peri- and Extrapersonal Space}.
+\newblock Bachelor thesis, Brown University.
+
 \bibitem[\protect\citename{Agarwal et~al\mbox{.} }]{ceres-solver}
 {\sc Agarwal, S., Mierle, K., and Others}.
 \newblock Ceres solver.
@@ -15,23 +38,23 @@
 \newblock 2001.
 \newblock Visual simulation of smoke.
 \newblock In {\em Proceedings of SIGGRAPH 2001}, ACM Press / ACM SIGGRAPH,
-  E.~Fiume, Ed., Computer Graphics Proceedings, Annual Conference Series, ACM,
-  15--22.
+E.~Fiume, Ed., Computer Graphics Proceedings, Annual Conference Series, ACM,
+15--22.
 
 \bibitem[\protect\citename{Jobson et~al\mbox{.} }1995]{Jobs95}
 {\sc Jobson, D.~J., Rahman, Z., and Woodell, G.~A.}
 \newblock 1995.
 \newblock Retinex image processing: Improved fidelity to direct visual
-  observation.
+observation.
 \newblock In {\em Proceedings of the IS\&T Fourth Color Imaging Conference:
-  Color Science, Systems, and Applications}, vol.~4, The Society for Imaging
-  Science and Technology, 124--125.
+Color Science, Systems, and Applications}, vol.~4, The Society for Imaging
+Science and Technology, 124--125.
 
 \bibitem[\protect\citename{Kartch }2000]{kartch:2000:ERA}
 {\sc Kartch, D.}
 \newblock 2000.
 \newblock {\em Efficient Rendering and Compression for Full-Parallax
-  Computer-Generated Holographic Stereograms}.
+Computer-Generated Holographic Stereograms}.
 \newblock PhD thesis, Cornell University.
 
 \bibitem[\protect\citename{Landis }2002]{notes2002}
@@ -41,20 +64,20 @@
 
 \bibitem[\protect\citename{Levoy et~al\mbox{.} }2000]{levoy:2000:TDM}
 {\sc Levoy, M., Pulli, K., Curless, B., Rusinkiewicz, S., Koller, D., Pereira,
-  L., Ginzton, M., Anderson, S., Davis, J., Ginsberg, J., Shade, J., and Fulk,
-  D.}
+L., Ginzton, M., Anderson, S., Davis, J., Ginsberg, J., Shade, J., and Fulk,
+D.}
 \newblock 2000.
 \newblock The digital michelangelo project.
 \newblock In {\em Proceedings of SIGGRAPH 2000}, ACM Press / ACM SIGGRAPH, New
-  York, K.~Akeley, Ed., Computer Graphics Proceedings, Annual Conference
-  Series, ACM, 131--144.
+York, K.~Akeley, Ed., Computer Graphics Proceedings, Annual Conference
+Series, ACM, 131--144.
 
 \bibitem[\protect\citename{Park et~al\mbox{.} }2006]{Park:2006:DSI}
 {\sc Park, S.~W., Linsen, L., Kreylos, O., Owens, J.~D., and Hamann, B.}
 \newblock 2006.
 \newblock Discrete sibson interpolation.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics 12}, 2
-  (Mar.\slash Apr.), 243--253.
+(Mar.\slash Apr.), 243--253.
 
 \bibitem[\protect\citename{Parke and Waters }1996]{parke:1996:CFA}
 {\sc Parke, F.~I., and Waters, K.}
@@ -64,10 +87,10 @@
 
 \bibitem[\protect\citename{Pellacini et~al\mbox{.} }2005]{Pellacini:2005:LAH}
 {\sc Pellacini, F., Vidim{\v{c}}e, K., Lefohn, A., Mohr, A., Leone, M., and
-  Warren, J.}
+Warren, J.}
 \newblock 2005.
 \newblock Lpics: a hybrid hardware-accelerated relighting engine for computer
-  cinematography.
+cinematography.
 \newblock {\em ACM Transactions on Graphics 24}, 3 (Aug.), 464--470.
 
 \bibitem[\protect\citename{Sako and Fujimura }2000]{sako:2001:SSB}
@@ -80,7 +103,7 @@
 {\sc Yee, Y. L.~H.}
 \newblock 2000.
 \newblock {\em Spatiotemporal sensistivity and visual attention for efficient
-  rendering of dynamic environments}.
+rendering of dynamic environments}.
 \newblock Master's thesis, Cornell University.
 
 \end{thebibliography}
