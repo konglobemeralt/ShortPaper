@@ -51,7 +51,7 @@
 \maketitle
 
 \begin{abstract}
-In order to better understand how binocular depth cues can be recreated in a virtual environment, specifically the method of rendering a scene from two slightly differently positioned cameras, a small scale experiment was set up in which test subjects where presented with a scene containing a series of cubes and asked to estimate their distance. During the experiment the distance between the virtual cameras was either increased or decreased and the user was then again asked to estimate the distance to the cubes. While the test group was small, there where some indications that a wider distance between the cameras led to the user perceiving the cubes as being closer, and a decrease in the distance between the cameras to the user perceiving the cubes as being further away.
+In order to better understand how binocular depth cues can be recreated and manipulated in a virtual environment, a small scale experiment was created in which test subjects where presented with a scene containing a number of cubes. The distance between the two virtual cameras was then either increased or decreased and the test subject was presented with the same scene and asked if they noticed any differences from the previous scene. While the test group was small, there where some indications that a wider distance between the cameras led to the user perceiving the cubes as being further away and smaller, and that a decrease in the distance between the cameras led the test subjects to perceive the cubes as being smaller and closer.
 
 
 
@@ -69,52 +69,36 @@ In order to better understand how binocular depth cues can be recreated in a vir
 
 \section{INTRODUCTION}
 
-The purpose of this paper is to investigate how humans perceive depth in a virtual 3D enviroment, more specifically how the distance between the two virtual cameras can influence the users perception of depth. On a pragmatic level, this could be applied to help alleviate the scale issues experienced by some users, where objects appear too small. The ability to manipulate the users perception without changing the actual geometry of a scene could also be used for example in a multiplayer horror game, where the player upon observing something scary gets a slight increase in the distance between their virtual cameras, causing the entire scene to feel smaller without effecting actual gameplay or the scene for any other player.    
+The purpose of this paper is to investigate how humans perceive depth in a virtual 3D enviroment, more specifically how the distance between the two virtual cameras can influence the users perception of depth. On a pragmatic level, this could be applied in games or other virtual reality mediums to help alleviate the scale issues experienced by some users. The ability to manipulate the users perception without changing the actual geometry of a scene could also be used for example in a multiplayer horror game, where manipulation of the distance between the cameras will cause differences in the perception of the scene, whithout having to change the actual geometry and the experience of the other players.    
 
 There have been a lot of research conducted in regards to human depth perception. There are also a lot of practical examples on how to manipulate our depth perception that can be found for example in art. However, with virtual reality HMDs we are offered an unique opportunity to manipulate a persons depth perception by moving the position of the virtual eyes in such a way that the depth changes. This might have been possible before, using a complicated setup of a number of mirrors but with the HMD the set up of the experiment becomes trivial.  
 
 
-\begin{itemize}
-\item title, author, and affiliation information
-\item abstract
-\item CR categories *
-\item keywords *
-\item body of the content
-\item bibliography
-\end{itemize}
-
-
-
 \section{BACKGROUND}
+In order for an observer to perceive an object and ascertain its position relative to the observers own, the brain needs to process and interpret multiple sources of information which are commonly referred to as cues. ~\cite {Reichelt et al:2010:DPHV}. These are often divided into two subcategories, binocular and monocular cues. In some scientific literature the term visual depth cues or pictorial depth cues is used in lieu of monocular cues, for the purposes of this short paper however the terms used will be binocular and monocular cues. As the names suggest, the binocular cues require the use of both eyes while the monocular cues one require one eye.
 
-In order for an observer to perceive an object and ascertain its position relative to the observers own, the brain interprets multiple sources of information, commonly referred to as cues. 
-%%¤ GIBBSSSOONN!!!!(Gibson, 1950).
+The binocular cues are a result of the brain taking advantage of the fact that each eye is placed approximately 15 cm apart horizontally on an average human adults head. Because of this the retina of each eye receives a slightly different images as result of the two different viewing angles. These two images are then merged in the striate cortex of the brain, and the difference is interpreted and used as a cue for depth ~\cite{Reichelt et al:2010:DPHV}   From this follows that an object placed at different distances from the observer will have different amounts of binocular disparity due to the images from each eye being different~\cite {Boyd:2000:DPC}. From this it also becomes apparent that as the distance to a given object from the observer increases, the binocular cues will become more and more useless as the images revived by each eye become more and more similar. It is said that binocular cues to work best when the distance to an object is fairly small, approximately 30 meters or less. ~\cite {Palvqvist:2013:DPDS}.
 
-These can be divided into two subcategories, binocular and monocular cues. The binocular cues works best when the distance to an object is fairly small, within 30 m ~\cite {Palvqvist:2013:DPDS}. 
-
-The binocular cues work as the brain takes advantage of the fact that each eye is placed approximately 15 cm apart on an average adults head. Because of this the brain receives two slightly different images from the retina of each respective eye as result of the two slightly different viewing angles. These two images are then merged in the striate cortex of the brain, and the difference is interpreted and used as a cue for depth. From this follows that an object placed at different distances from the observer will have different amounts of binocular disparity due to the images from each eye being different. 
-%%/cite Gibson. 
+To perceive depth at distances greater than around thirty meters the monocular cues take precedent for most people ~\cite {Palvqvist:2013:DPDS}. The monocular consists of perceived differences in shadows and light on an object 
 
 
-%%%m /cite{Cutting & Vishton, 1995}. In
-
-While the cues themselves can be said to be fairly well understood, the way in which they cooperate can be is somewhat disputed ~\cite {Boyd:2000:DPC} 
-
-
-To perceive depth at longer distances monocular cues take precedent. While not strictly relevant to an experiment focusing on binocular depth cues, it is important to know of them since these are harder to switch of. The monocular cues are often said to to be (1) differences in shadows and light on an object (2) an object occluding or in other ways hiding one another (3) relative size of similar objects on different distances and so on. (5) the eyes lens level of accommodation, (6) loss of detail with increased distance (8) motion perspective or motion parallax.
+(2) an object occluding or in other ways hiding one another (3) relative size of similar objects on different distances and so on. (5) the eyes lens level of accommodation, (6) loss of detail with increased distance (8) motion perspective or motion parallax.
 %%%/(Kemeny &
 Panerai).
 
-
+It should be noted that one cue does not exclude another and as such a person observing an object at a distance within 30 meters will most likely use a combination of depth cues. ~\cite {Boyd:2000:DPC} . While the cues themselves can be said to be fairly well understood, the way in which they cooperate is somewhat disputed ~\cite {Boyd:2000:DPC} 
 
 
 
 \section{EXPERIMENT SETUP}
 
-The experiment was created using the Unity Game Engine developed by Unity Technologies an Oculus Rift HMD and a minimal amount of C\# code to allow the experimenter to change the distance between the virtual cameras at their digression. Unity was chosen as it allows for a quick experiment set up and Oculus intigration without having to create an entirely new engine.
-At the time of writing there are a number of HMDs avaliable to developer, however, the Oculus was chosen for its native support in Unity and that it might be one of the most widely used HMDS.
+The experiment was created using the Unity Game Engine developed by Unity Technologies and Oculus Rift HMD and a minimal amount of C\# code to allow the experimenter to change the distance between the virtual cameras with one in game unit at their digression. Unity was chosen as it would allow for a quick experiment set up without the creation of en entirely new engine and since the latest version has native support for the Oculus HMD the interaction between the software running the experiment and the HMD will not pose a problem.
 
-The user is seated on a chair and places the HMD on their head. The user is then presented with a scene containing a number of cubes placed at random distances but no closer to the test subject then 3 units, and no further away then 100 units. The test subject will then be asked to look at the cubes for about thirty seconds before the screen goes black. The distance between the cameras will then be increased, and the test subject will again be presented with the scene and asked to observe for 30 seconds and then asked if anything has changed from the previous scene.  
+At the time of writing there are a number of HMDs avaliable for developer, the Oculus was chosen primarily for its native support in Unity and that it was easily avaliable for the experimenter.
+
+The scene created in unity consists of a blue skybox, a plane and seventy five cubes that are generated and randomly placed within a random distance from 0.0.0, although no less then -10 in game units or  more then 10 in game units at start-up. The experimenter then controls the distance between the cameras using the arrow keys, the left one decreases the distance with one in game unit, and the right one increases it with one in game unit. To alleviate possible sources of nausea, a script was written that disables the rendering och the cubes if desired so that the experimenter can change the distance between the cameras greatly without the experimentee noticing. 
+
+During the actual experiment the user is seated on a chair and the HMD is placed on their head. The user is then presented with the previously mentioned scene. The test subject will then be asked to look at the cubes for about thirty seconds before the the experimenter will disable the rendering of the cubes. When this avtion has been performed, the distance between the cameras will then be increased, and the test subject will again be presented with the scene and asked to observe for 30 seconds and asked if they notice any difference from the previous scene.  
 
 \section{RESULT}
 

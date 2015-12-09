@@ -17,11 +17,23 @@ World: Understanding Individual Differences in Depth Perception by Studying
 Shape-from-shading and Motion Parallax}.
 \newblock Bachelor thesis, Brown University.
 
-\bibitem[\protect\citename{Boyd }2008]{Boyd:2000:DPCVR}
+\bibitem[\protect\citename{Armbrüster C, et al }2008]{Armbrüster C, et al:2008:DPCVR}
 {\sc Dr.Armbrüster C., Wolter M., Dr.Kuhlen T., Prof. Dr.Spijkers W., and Dr.Fimm B.}
-\newblock 2000.
+\newblock 2008.
 \newblock {\em Depth Perception in Virtual Reality: Distance Estimations in Peri- and Extrapersonal Space}.
 \newblock Bachelor thesis, Brown University.
 
+\bibitem[\protect\citename{Pfautz}2002]{Pfautz:2002:DPCG}
+{\sc Jonathan David Pfautz}
+\newblock 2002.
+\newblock {\em Depth perception in computer graphics}.
+\newblock Technical Paper, University Of Cambridge.
+
+\bibitem[\protect\citename{Pfautz }2010]{Reichelt et al:2010:DPHV}
+{\sc Stephan Reichelt, Ralf Häussler, Gerald F{\"u}tterer, and Norbert Leister}
+\newblock 2010.
+\newblock {\em Depth cues in human visual perception and their realization
+in 3D displays}.
+\newblock SeeReal Technologies GmbH.
 
 \end{thebibliography}
