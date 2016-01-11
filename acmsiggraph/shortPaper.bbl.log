@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.25)  7 DEC 2015 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.2)  11 JAN 2016 18:35
 entering extended mode
 **shortPaper.bbl.tex
 (shortPaper.bbl.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 
 ! LaTeX Error: Environment thebibliography undefined.
 
@@ -2605,10 +2605,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 19 strings out of 493691
- 220 string characters out of 3144020
- 56197 words of memory out of 3000000
- 3444 multiletter control sequences out of 15000+200000
+ 19 strings out of 493698
+ 220 string characters out of 3144409
+ 56149 words of memory out of 3000000
+ 3443 multiletter control sequences out of 15000+200000
  3986 words of font info for 15 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  16i,1n,16p,115b,110s stack positions out of 5000i,500n,10000p,200000b,50000s
