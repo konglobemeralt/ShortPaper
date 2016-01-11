@@ -107,34 +107,26 @@ It should be noted that one cue does not exclude another and as such a person ob
 
 \section{EXPERIMENT SETUP}
 
-The experiment was created using the Unity Game Engine developed by Unity Technologies and Oculus Rift HMD and a minimal amount of C\# code to allow the experimenter to change the distance between the virtual cameras with one in game unit at their digression. Unity was chosen as it would allow for a quick experiment set up without the creation of en entirely new engine and since the latest version has native support for the Oculus HMD the interaction between the software running the experiment and the HMD will not pose a problem.
+The experiment was created using the Unity Game Engine developed by Unity Technologies and Oculus Rift head mounted display, hereafter referred to as HMD and a minimal amount of C\# code to allow the experimenter to change the distance between the virtual cameras with one in game unit at their digression. Unity was chosen as it would allow for a quick experiment set up without the creation of en entirely new engine and since the latest version has native support for the Oculus HMD the interaction between the software running the experiment and the HMD will not pose a problem.
 
-At the time of writing there are a number of HMDs avaliable for developer, the Oculus was chosen primarily for its native support in Unity and that it was easily avaliable for the experimenter.
+At the time of writing there are a number of HMDs available for developer, the Oculus was chosen primarily for its native support in Unity and that it was easily available for the experimenter.
 
-The scene created in unity consists of a blue skybox, a plane and seventy five cubes that are generated and randomly placed within a random distance from 0.0.0, although no less then -10 in game units or  more then 10 in game units at start-up. The experimenter then controls the distance between the cameras using the arrow keys, the left one decreases the distance with one in game unit, and the right one increases it with one in game unit. To alleviate possible sources of nausea, a script was written that disables the rendering och the cubes if desired so that the experimenter can change the distance between the cameras greatly without the experimentee noticing. 
+The scene consists of a blue skybox, a grey plane and seventy five cubes of the same size and rotation that get generated upon start-up and which are then randomly distributed within a spaced defined as between 10 and 30 in game units away from the player in their forward facing direction. 
 
-During the actual experiment the user is seated on a chair and the HMD is placed on their head. The user is then presented with the previously mentioned scene. The test subject will then be asked to look at the cubes for about thirty seconds before the the experimenter will disable the rendering of the cubes. When this avtion has been performed, the distance between the cameras will then be increased, and the test subject will again be presented with the scene and asked to observe for 30 seconds and asked if they notice any difference from the previous scene.  
+During the actual experiment the user is seated on a chair and the HMD is placed on their head. During start-up the program generates a random integer. This integer later decides, depending on if it is even or odd, if the camera distance will be increased or decreased during the duration of the experiment. The program logs this integer so as to enable the experimenter at a later time compare the notes taken of the participants experience with the actual change logged by the program. This was done instead of letting the experimenter keep track of giving every other participant increasing versus decreasing camera distances.  
+
+After the user then puts on the HDM and they are asked to look at the cubes for about thirty seconds. The experimenter then presses a button on the keyboard which disables the rendering of the scene and then increases or decreases the distance between the cameras depending on the integer generated at start-up. The disabling of the rendering during the camera translation was done both to alleviate possible sources of nausea, but also so that the distance between the cameras could change without the participant noticing. 
+
+The cubes are then rendered again and the participant will once again be presented with the same scene but with a different distance between the cameras and allowed to observe for 30 seconds before they are asked if they notice any difference from the previous scene. This is then repeated four times.
+
 
 \section{RESULT}
 
-The title, author, and affiliation information should be centred
-above the body of your content. The title should be set in a 14-point
-bold sans-serif typeface with 18-point line spacing. The author and
-affiliation information should be set in a 10-point serif typeface
-with 12-point line spacing.
-
-The title should be appropriately capitalized. ``All caps'' is not
-appropriate. The following link provides assistance with appropriate
-capitalization:
-
-{\small\url{http://www.grammarbook.com/punctuation/capital.asp}}
-
-Affiliations should include your educational institution or employer's
-name, and a valid e-mail address.
+Due to the small group of participants it is hard to draw any general conclusions. It can however be said that while most people did notice that something had changed most where however unable to pinpoint exactly what it was that had changed. There might be a number of reasons for this. One apparent reason is that the effect achieved by moving the cameras is not one that would appear, baring some sort of hideous accident, in real life. Generally, a persons eyes will remain in their fixed location. As this change is something that most people have never experienced it might have been hard to notice it. Another possibility is that the cubes did not offer enough reference points for the participants to adequately estimate distances. With only the other cubes and the featureless ground as frame of reference adequate size estimations may have been hard. One other apparent reason was every participants lack of any previous experience in virtual reality. While this should not detract from the actual change in what the user observes, it might be that being placed in a virtual environment where you are able to look around and observe objects in 3D is fairly new and as such a possible distraction.  
 
 \section{FUTURE WORK}
 
-This experiment focused on only one depth cue. 
+This experiment focused on only one depth cue. In a future work I would like to 
 
 
 
