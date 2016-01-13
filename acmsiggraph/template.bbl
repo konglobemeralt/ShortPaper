@@ -23,17 +23,25 @@ Shape-from-shading and Motion Parallax}.
 \newblock {\em Depth Perception in Virtual Reality: Distance Estimations in Peri- and Extrapersonal Space}.
 \newblock Bachelor thesis, Brown University.
 
-\bibitem[\protect\citename{Pfautz}2002]{Pfautz:2002:DPCG}
+\bibitem[\protect\citename{Pfautz }2002]{Pfautz:2002:DPCG}
 {\sc Jonathan David Pfautz}
 \newblock 2002.
 \newblock {\em Depth perception in computer graphics}.
 \newblock Technical Paper, University Of Cambridge.
 
-\bibitem[\protect\citename{Pfautz }2010]{Reichelt et al:2010:DPHV}
+\bibitem[\protect\citename{Reichelt et al }2010]{Reichelt et al:2010:DPHV}
 {\sc Stephan Reichelt, Ralf Häussler, Gerald F{\"u}tterer, and Norbert Leister}
 \newblock 2010.
 \newblock {\em Depth cues in human visual perception and their realization
 in 3D displays}.
 \newblock SeeReal Technologies GmbH.
+
+\bibitem[\protect\citename{Kemeny et al }2003]{Kemeny:2003:DPDSE}
+{\sc Andras Kemeny, Francesco Panerai}
+\newblock 2003.
+\newblock {\em Evaluating perception in driving
+simulation experiments}.
+\newblock Laboratoire de Physiologie de la Perception et de l’Action, CNRS-Colle`ge de France.
+
 
 \end{thebibliography}
