@@ -46,14 +46,14 @@
 %%% the title and author information, and above the body of the content.
 
  \teaser{
-   \includegraphics[height=1.5in]{images/temp}
-   \caption{BTH 2015, Karlskrona, SE.}
+   \includegraphics[height=1.5in]{images/Untitled-2}
+   \caption{Environment presented to participants}
  }
 
 \maketitle
 
 \begin{abstract}
-In order to better understand how binocular depth cues can be recreated and manipulated in a virtual environment, a small scale experiment was created in which participants where presented with a virtual scene containing a number of cubes. The subjects where asked to observe the cubes for a short while, before the distance between the virtual cameras was either increased or decreased. The participants were then asked if they noticed any differences from the previous scene. Because the test group was small, it is hard to draw any definite conclusion, but it does however seem like there are indications that while most people do notice that something change, they are however unable to pinpoint exactly what that change is.  
+In order to better understand how binocular depth cues can be recreated and manipulated in a virtual environment, a small scale experiment was created in which participants where presented with a virtual scene containing a number of cubes. The subjects where asked to observe the cubes for a short while, before the distance between the virtual cameras was either increased or decreased. The participants were then asked if they noticed any differences from the previous scene. Because the test group was small, it is hard to draw any definite conclusion, but it does however seem as if there are indications that most people will notice that something change, they will however be unable to pinpoint exactly what that change is.  
 
 
 
@@ -70,12 +70,10 @@ In order to better understand how binocular depth cues can be recreated and mani
 \copyrightspace
 
 \section{INTRODUCTION}
-It is fairly safe to say that everyone in modern society has in some way experienced something in where some other person by manipulating depth cues tries to create the feeling of depth for the observer in something that is actually flat. After the experiences that fall into this spectrum ranges from painted pictures to 3D movies. And it is now perhaps more relevant than ever not only with the populatity of 3D movies but with the continued evolution and popularity of head mounted virtual reality displays such as the Occulus rift or the Htc Vive. Because of this there has been an increase in the amount of research conducted in regards to human depth perception, and it would seem that this is a trend that is not going to change any time soon.
 
 The purpose of this paper is to investigate how humans perceive depth in a virtual 3D environment, more specifically how the distance between the two virtual cameras can influence the users perception of depth. On a pragmatic level, this could be applied in games or other virtual reality mediums to help alleviate the scale issues experienced by some users. The ability to manipulate the users perception without changing the actual geometry of a scene could also be used for example in a multiplayer horror game, where manipulation of the distance between the cameras could be used to cause various players to perceive the scene in different ways without having to change the actual geometry and the experience of the other players.
 
-//MAYBE MOVE OR DELETE
-Virtual reality head mounted displays offers us an unique opportunity to manipulate a persons depth perception by moving the position of the virtual eyes in such a way that the depth changes. While this might have been possible before, using a complicated set-up of a number of mirrors, it has now become almost trivial.  
+It is fairly safe to say that everyone in modern society has in some way experienced something in which depth cues are manipulated to enhance or change a persons perception of depth. From a painted picture that uses paint to create colour and shading to modern 3D movies in which among other techniques polarised lenses are used to only allow one image to on eye, and another to the other eye. The subject of recreating and manipulating depth can therefore be said to be a very broad subject perhaps now even more relevant as the continued evolution and popularity of head mounted virtual reality displays such as the Occulus rift or the Htc Vive. Because of this there has been an increase in the amount of research conducted in regards to human depth perception, and it would seem that this is a trend that is not going to change any time soon.  
 
 
 \section{BACKGROUND}
@@ -83,16 +81,16 @@ In order for an observer to perceive an object and ascertain its position relati
 
 The binocular cues are a result of the brain taking advantage of the fact that each eye is placed approximately 15 cm apart horizontally on an average human adults head~\cite {Akai:1998:DPIRVR}. Because of this the retina of each eye receives a slightly different image compared to the other as result of the two different viewing angles. These two images are then merged in the striate cortex of the brain, and the difference is interpreted and used as a cue to ascertain depth ~\cite{Reichelt et al:2010:DPHV} 
 
-From this it follows that an object placed at different distances from the observer will have different amounts of binocular disparity due to the images from each eye being different~\cite {Boyd:2000:DPC}. I.e, the further away an object is the more similar the two images will become. 
-
-An easy way to test and prove this for yourself is to put your index finger along the bridge of your nose and then observe how it appears to move left and right when you close one eye and look at it with the other. Contrast this with observing the apparent movement of the finger at arms length using the same method of closing one eye and observing with the other.   
-
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=3.0in]{images/depthCuesBinocular}
-	\caption{Binocular Depth Cue. Image courtesy oF PRINT SCREEN \#YOLO}
+	\caption{Stereopsis. Image courtesy of David Pfaust  }
 	\label{fig:DepthPerception}
 \end{figure}
+
+From this it follows that an object placed at different distances from the observer will have different amounts of binocular disparity ~\cite {Boyd:2000:DPC}. I.e, the further away an object is the more similar the two images will become. 
+
+An easy way to test and prove this for yourself is to put your index finger along the bridge of your nose and then observe how it appears to move left and right when you close one eye and look at it with the other. Contrast this with observing the apparent movement of the finger at arms length using the same method of closing one eye and observing with the other.   
  
 From this it also becomes apparent that as the distance to a given object from the observer increases, the binocular cues will become more and more useless as the images revived by each eye become more and more similar. It is said that for binocular cues to work best the distance from an observer to an object should be fairly small, approximately 30 meters or less. ~\cite {Palvqvist:2013:DPDS}.
 
@@ -103,7 +101,7 @@ The monocular cues consists of perceived differences in shadows and light on an 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=3.0in]{images/depthCues}
-	\caption{Monocular Depth Cue. Image courtesy oF coopy paste \#CTRLCCTRLP}
+	\caption{Examples of monocular depth cues. Image courtesy of David Pfaust}
 	\label{fig:DepthPerception}
 \end{figure}
 
@@ -184,7 +182,7 @@ The results can be found below in table 1. Since the participants that did notic
 	
 
 \section{DISCUSSION}
-It is easy to note that the group of participants is very homogeneous, the majority of the participants being males in their early twenties  with glasses which makes it difficult to make any conclusive statements about how people would react to the experiment in general. Another side effect of the small participant group that immediately becomes apparent is that the random distribution of who got increasing distance between the cameras and the people who got decreasing distance slightly uneven, making it harder still to make any statements about the effect of decreasing the camera distance. Had there been more participants this would obviously have solved itself as any disparity would have eventually evened itself out. 
+It is easy to note that the group of participants is very homogeneous, the majority of the participants being males in their early twenties  with glasses which makes it difficult to make any conclusive statements about how people in general would react to the experiment. Another side effect of the small participant group that immediately becomes apparent is that the random distribution of who got increasing distance between the cameras versus the people who got decreasing distance slightly uneven, making it harder still to make any statements about the effect of decreasing the camera distance. Had there been more participants this would obviously have resolved itself as any disparity would have eventually evened itself out. 
 
 As can be seen everyone except participant 9 and 11 noticed that something had changed. It was however difficult for the participants to pinpoint exactly what this was. There could be a number of reason why that is but one apparent is that the effect achieved by moving the cameras is not one that most people would experience in real life. Baring some sort of hideous accident a persons eyes will generally remain in their fixed location. As this change is something that most people have never experienced it would of course be hard to tell that this is what had happened. 
 
@@ -216,9 +214,6 @@ As mentioned previously there is also the fact the newness of the experience mig
 If you have questions or suggestions regarding this document, please
 contact Jesper Blidkvist at ``Jesper.Blidkvist@live.se''.
 
-\section*{Acknowledgements}
-
-Tack till inte en jävel
 
 \bibliographystyle{acmsiggraph}
 \nocite{*}
